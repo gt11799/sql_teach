@@ -1,0 +1,2 @@
+# insert
+insert douban (comment, url, star_number) values ('this is a test', 'https://baidu.com', '5');
