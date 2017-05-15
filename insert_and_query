@@ -1,2 +1,11 @@
 # insert
 insert douban (comment, url, star_number) values ('this is a test', 'https://baidu.com', '5');
+
+# select skip 4, and get 5
+select * from douban where star_number = 5 limit 4,5;
+
+# update 
+update douban set url = 'https://google.com' where id = 6;
+
+# delete
+delete from douban where id = 3;
